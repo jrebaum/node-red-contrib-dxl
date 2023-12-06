@@ -1,6 +1,6 @@
 {
   "name": "@opendxl/node-red-contrib-dxl",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "McAfee, LLC",
   "description": "Core collection of DXL Node-RED nodes",
   "license": "Apache-2.0",
@@ -21,7 +21,7 @@
     "node": ">=8.0.0"
   },
   "dependencies": {
-    "@opendxl/dxl-client": "^0.1.0",
+    "@opendxl/dxl-client": "github:jrebaum/opendxl-client-javascript#nodered-311",
     "@opendxl/dxl-bootstrap": "^0.1.0",
     "safe-buffer": "^5.1.1"
   },
@@ -44,7 +44,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/opendxl/node-red-contrib-dxl.git"
+    "url": "git://github.com/jrebaum/node-red-contrib-dxl.git"
   },
   "node-red": {
     "nodes": {
